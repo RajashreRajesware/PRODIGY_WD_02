@@ -1,0 +1,49 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.stopwatch-container {
+  display: flex;
+  background-image: url(Images/watch-clocks-pocket-watch-gold-watch-wallpaper-preview.jpg);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  /* background-image: url(Images/Zendesk\ Hero.png); */
+  background-size: cover; /* Adjusts the size of the background image to cover the entire box */
+  background-position: center; /* Centers the background image within the box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: black;
+  text-shadow: 2px 2px 4px rgba(49, 101, 0, 0.5);
+  animation: glow 1.5s infinite alternate;
+  font-size: 3em;
+  margin-bottom: 10%;
+  margin-top: 25%;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.controls button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
